@@ -5,7 +5,6 @@ function createGame(x, y) {
   const grid = [];
 
   for (var row = 0; row < x; row++) {
-    debugger;
     grid.push([]);
 
     for (var cell = 0; cell < y; cell++) {
